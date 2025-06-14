@@ -15,6 +15,7 @@ boolean miColor() {
 void figura(){
 //Calculo de forma aprox que valores me dan una figura mas cercana a la original
  push();
+ translate(400,0);
  noStroke();
   for(int i=0; i<20; i++){
     if(i%2==0){
@@ -37,6 +38,7 @@ void figura(){
 //Tomo la misma estructura de la forma normal y  altero el fill para agregar la funcion dinamica
 void figuraColor(){
  push();
+ translate(400,0);
  noStroke();
   for(int i=0; i<20; i++){
       fill(random(255),random(255),random(255));
