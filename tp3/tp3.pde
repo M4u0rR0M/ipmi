@@ -1,0 +1,12 @@
+PImage referencia;
+void setup() {
+    background(255);
+    size(800,400);
+    line(400,0,400,400);
+    referencia = loadImage("Imagen1.jpg");
+}
+ 
+void draw() {
+      image(referencia, 400, 0, 800, 400);
+  
+}
